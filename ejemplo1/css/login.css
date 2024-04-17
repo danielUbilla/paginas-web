@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    background-color:  rgb(167, 200, 231);
+}
+#titulo{
+    width: 60%; /* ancho*/
+    height: 90px; /* altura*/
+    text-align: center; /* alineacion del texto*/
+    margin: 15px auto; /* margen con respecto a los lados de la pagina, arriba y a la siguiente estructura de abajo*/
+    padding: 5px; /* ubicacion de lo que esta dentro de la estructura con los bordes*/
+    border-radius: 20px 20px; /* que tan curveado estan los bordes de la estructura*/
+    box-shadow: black 10px 10px 10px; /* sombreado de la estrutura*/
+    text-shadow: black 2px 2px 3px; /* sombreado del texto*/
+    background: -webkit-linear-gradient(bottom, #c39, rgb(221, 176, 221)); /*linear gradient, cambio de color de manera progresiva*/
+}
+#navegacion{
+    background-color: rgb(240, 203, 169);
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+}
+#navegacion li{
+    display: inline;
+    padding: 30px;
+}
+#titulo_aside{
+    text-align: center;
+}
+#menu_lateral_izq{
+    width: 15%;
+    height: 500px;
+    float:left;
+    background-color: rgb(112, 128, 218);
+}
+#menu_lateral_izq li{
+    display: block;
+}
+#contenido{
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    margin:auto
+}
+#menu_lateral_der{
+    width: 15%;
+    height: 500px;
+    float:right;
+    background-color: rgb(112, 128, 218);
+}
+#menu_lateral_der li{
+    display: list-item;
+}
+#pie{
+    background-color: rgb(207, 218, 112);
+    clear:both;/*mueve este elemento debajo de otros que sean float*/
+    height: 40px;
+}
